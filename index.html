@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <style>
+        li {
+            list-style: none;
+            background-color: deeppink;
+        }
+        header {
+            background-color: #222;
+            border-bottom: 1px solid #080808;
+        }
+        .nav {
+            line-height: 42px;
+        }
+        .nav a {
+            padding: 0px 10px;
+            color: #9d9d9d;
+        }
+        .nav a:hover,
+        .nav_right a:hover {
+            color: #fff;
+        }
+        .nav a:first-child {
+            font-size: 18px;
+        }
+        a:hover {
+            text-decoration: none;
+        }
+        .nav_right {
+            line-height: 42px;
+        }
+        .nav_right a {
+            color: #9d9d9d;
+        }
+        @media screen and (max-width: 992px) {
+            .nav a {
+                padding: 0 6px;
+                font-size: 14px !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="nav pull-left">
+                <a href="https://www.bootcss.com/">Bootstrap中文网</a>
+                <a href="https://www.bootcss.com/" class="hidden-xs">Bootstrap3中文文档</a>
+                <a href="https://www.bootcss.com/" class="hidden-xs">Bootstrap4中文文档</a>
+                <a href="https://www.bootcss.com/" class="hidden-xs">Sass 教程</a>
+                <a href="https://www.bootcss.com/" class="hidden-xs">Less 教程</a>
+                <a href="https://www.bootcss.com/" class="hidden-xs">jQuery API</a>
+                <a href="https://www.bootcss.com/" class="hidden-xs">网站实例</a>
+            </div>
+            <div class="nav_right pull-right visible-lg">
+                <a href="https://www.bootcss.com/">关于</a>
+            </div>
+            <div class="pull-right visible-xs" style="color:#fff;">我是列表</div>
+        </nav>
+    </header>
+</body>
+</html>
